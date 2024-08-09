@@ -5,11 +5,12 @@ grid_size = 1 #individual cell size
 pensize = 20 #your pen size when you click or draw
 
 
+
 def initial_state(grid):
     i = len(grid)-1
     j = len(grid[0])-1
     no_of_cells = i*j
-    for _ in range(int(no_of_cells/3)):
+    for _ in range(int(no_of_cells/5)):
         x = random.randint(1,i)
         y = random.randint(1,j)
         grid[x][y] = 1
