@@ -1,8 +1,8 @@
 import pygame
 import random
 width, height = 800, 600
-grid_size = 1 #individual cell size
-pensize = 20 #your pen size when you click or draw
+grid_size = int(input("Enter individual cell size"))#individual cell size
+pensize = int(input("enter pen size")) #your pen size when you click or draw
 
 
 
